@@ -9,7 +9,10 @@
 2.Работа с Git&GitHub
   1.Скачивать GitHub командой:sudo apt install git-all
   2.Проверка версии git после скачивания: git --version
-  3.Создаем новый SSH-ключ для github командой:ssh-keygen -t rsa -b 4096 -C "email"
   3.Авториоваться в GitHub(Если нет акаунта то пройти регистрацию)
   4.Нажать на кнопку New repository(Предварительно указав все параметры для его создания) 
-  5.
+  4.Создать новый SSH-ключ для github командой:ssh-keygen -t rsa -b 4096 -C "email"
+  5.Запустить ssh-agent и добавить приватный ключ:eval"$(ssh-agent -s)" (запуск агента), ssh-add /root/.ssh/id_rsa (Добавление)
+  6.Скопировать значение публичного ключа и добавить в раздел SSH and GPG keys: cat /root/.ssh/id_rsa.pub(Чтение содержимого в открытом ключе) 
+  7.Проверка корректности настройки GitHub-key: ssh -T git@gihub.com(Если корректно все настроенно то высветиться приветсвия от github)
+  8.Для кланирования репозитория ввести команду:git clone git@github.com:<user_name>/<repository_name>
