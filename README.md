@@ -33,3 +33,7 @@
 1.В определенных местах при выполнении ТЗ возникали незначительные вопросы 
 
 Решение:Сбор нужнйо информации в интернете
+
+![Hello devops] (https://github.com/user-attachments/assets/1232c6f6-346f-4692-bbf6-da7c06384ef2)
+![Hello from Docker](https://github.com/user-attachments/assets/cb2d9ad8-1514-4b88-a8a6-24b3da894017)
+
